@@ -122,4 +122,16 @@ http://localhost/SS6-Quantum-Core-Gaming-main/
 * Uses a simple PHP + MySQL architecture
 * No external frameworks used
 
+## 🌐 Live Demo
+
+🔗 **Live Website:**
+http://quantum-core-gaming.great-site.net/
+
+🧪 **Test Credentials (Optional):**
+
+* You can register a new account
+* Or use your own credentials to test full functionality
+
+> ⚠️ Note: Hosted on free hosting, so slight delays may occur.
+
 ---
