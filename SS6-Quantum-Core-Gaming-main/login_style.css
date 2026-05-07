@@ -1,0 +1,60 @@
+/*
+ * Styles for your Login, Register, and Profile pages
+ */
+.login-container {
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 30px 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.login-container .form-label {
+    color: #ccc;
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    font-weight: 600;
+}
+
+.login-container .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.login-container .form-control:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: #a855f7;
+    box-shadow: 0 0 0 0.25rem rgba(168, 85, 247, 0.25);
+    color: #fff;
+}
+
+.login-container .btn-primary {
+    background-color: #8b5cf6;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.login-container .btn-primary:hover {
+    background-color: #a855f7;
+}
+
+.login-helper-text {
+    color: #aaa;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-helper-text a {
+    color: #c084fc;
+    text-decoration: none;
+}
+
+.login-helper-text a:hover {
+    color: #fff;
+    text-decoration: underline;
+}

@@ -1,0 +1,90 @@
+/* This file holds all styles common to EVERY page */
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/2180133.jpg);
+    text-decoration: none;
+}
+
+nav {
+    background-image: url(R.jpg); /* Make sure you have R.jpg in your folder */
+    font-family: sans-serif;
+}
+
+.content {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+.parts {
+    display: inline !important;
+}
+
+.elements {
+    text-decoration: none !important;
+    display: inline !important;
+    margin: 10px !important;
+    font-weight: bolder !important;
+    transition-duration: 0.3s !important;
+    transition-timing-function: ease-in-out !important;
+    color: white !important;
+}
+
+.elements:hover {
+    color: aliceblue;
+    font-size: 16pt;
+}
+
+.contact {
+    list-style-type: none;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* --- ADD ALL YOUR GOOGLE FONT CLASSES HERE --- */
+.saira-stencil-one-regular {
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big-shoulders-stencil-text-content {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.bruno-ace-sc-regular {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.trade-winds-regular {
+    font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-social-list {
+    text-align: center;
+    padding-left: 0;
+}
+
+.footer-social-list > a {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer-social-list > a > li {
+    margin-top: 0;
+}

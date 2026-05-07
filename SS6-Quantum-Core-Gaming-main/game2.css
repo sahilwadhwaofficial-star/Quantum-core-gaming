@@ -1,0 +1,155 @@
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  
+  body {
+    background-image: url(https://wallpaperaccess.com/full/2180133.jpg);
+    text-decoration: none;
+  }
+  
+  nav {
+    background-image: url(R\ .jpg);
+    font-family: sans-serif;
+  }
+  
+  .content {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+  }
+  
+  .parts {
+    display: inline !important;
+  }
+  
+  .elements {
+    text-decoration: none !important;
+    display: inline !important;
+    margin: 10px !important;
+    font-weight: bolder !important;
+    transition-duration: 0.3s !important;
+    transition-timing-function: ease-in-out !important;
+    color: white !important;
+  }
+  
+  .elements:hover {
+    color: aliceblue;
+    font-size: 16pt;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  .saira-stencil-one-regular {
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .big-shoulders-stencil-text-content {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+.echoes5 {
+    height: 10cm;
+    width: 100%;
+    position: relative;
+    display: block;
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    mask-size: cover;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+  
+    /* Optional: If the image is not visible on white background */
+    background-color: transparent;
+  
+  
+  }
+
+  .echoes_poster{
+    height: 8cm;
+    width: 8cm;
+    border-radius: 50px;
+    margin: 40px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 8cm 8cm 8cm 8cm;
+    grid-row-gap: 20px;
+    border-radius: 50px;
+  }
+  
+  .div1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(echoes2.jpeg);
+    background-size: cover;
+    border-radius: 50px;
+  }
+  
+  .feat1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  
+  .div2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(echoes5.jpeg);
+    background-size: cover;
+    border-radius: 50px;
+  }
+  
+  .feat2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  
+  .div3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url(echoes4.jpeg);
+    background-size: cover;
+    border-radius: 50px;
+  }
+  
+  .feat3 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  
+  .div4 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-image: url(echoes3.jpeg);
+    background-size: cover;
+    border-radius: 50px;
+  }
+  
+  .feat4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  
+  .contact {
+    list-style-type: none;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .bruno-ace-sc-regular {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }

@@ -1,0 +1,205 @@
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/2180133.jpg);
+    text-decoration: none;
+}
+
+nav {
+    background-image: url(R\ .jpg);
+    font-family: sans-serif;
+}
+
+.content {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+.parts {
+    display: inline !important;
+}
+
+.elements {
+    text-decoration: none !important;
+    display: inline !important;
+    margin: 10px !important;
+    font-weight: bolder !important;
+    transition-duration: 0.3s !important;
+    transition-timing-function: ease-in-out !important;
+    color: white !important;
+}
+
+.elements:hover {
+    color: aliceblue;
+    font-size: 16pt;
+}
+
+
+
+#neorebirth {
+    display: inline !important;
+    transform: translateX(150px) !important;
+    animation-name: slide-in-left !important;
+    animation-duration: 0.5s !important;
+    animation-timing-function: ease-out !important;
+    animation-iteration-count: 1 !important;
+}
+
+#neo-character {
+    display: inline !important;
+    transform: translateX(60px) !important;
+    animation-name: slide-in-right !important;
+    animation-duration: 0.5s !important;
+    animation-timing-function: ease-out !important;
+    animation-iteration-count: 1 !important;
+}
+
+#description {
+    color: azure;
+    font-family: sans-serif;
+    transform: translateY(200px);
+}
+
+.resize {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.resize:hover {
+    transform: scale(0.96);
+}
+
+.trending {
+    color: whitesmoke;
+    text-align: center;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.trending:hover {
+    text-decoration: underline;
+}
+
+.game_grid {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 4cm 4cm 4cm 4cm 4cm 4cm;
+    grid-gap: 10px;
+}
+
+.text_des {
+    margin: 5px;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.div1 {
+    grid-column: 1 / 3;
+    grid-row: 1/3;
+    border-radius: 10px;
+}
+
+.echoes {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    border-radius: 5%;
+}
+
+
+.voices_of_wild {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    border-radius: 5%;
+}
+
+.div4 {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    border-radius: 10px;
+}
+
+.ashes_of_eden {
+    grid-column: 3/4;
+    grid-row: 3/5;
+    border-radius: 10px;
+}
+
+.div6 {
+    grid-column: 1/2;
+    grid-row: 5/7;
+    border-radius: 10px;
+}
+
+.div7 {
+    grid-column: 2/4;
+    grid-row: 5/7;
+    border-radius: 10px;
+}
+
+.div8 {
+    grid-column: 4/5;
+    grid-row: 4/7;
+    border-radius: 5%;
+}
+
+.contact {
+    list-style-type: none;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.saira-stencil-one-regular {
+    font-family: "Saira Stencil One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big-shoulders-stencil-text-content {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+/*animations*/
+@keyframes slide-in-left {
+    from {
+        transform: translateX(10px);
+    }
+
+    to {
+        transform: translateX(400px);
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translateX(400px);
+    }
+}
+.bruno-ace-sc-regular {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
