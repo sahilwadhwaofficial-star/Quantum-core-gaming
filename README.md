@@ -1,51 +1,125 @@
-Dynamic Web Designing (BCA 203) - Project Submission
-Project Name: Quantum Core Gaming Author: Sahil Wadhwa - 01613702024 & Abhishek Bhatnagar - 02813702024 Course: BCA, Semester III M1
+# ⚙️ Installation & Setup Guide
 
-Requirements
+## 📌 Requirements
 
-A WAMP server (or any other Apache/MySQL/PHP server).
+* A local server environment such as:
 
-1. File Installation
+  * WAMP (recommended)
+  * XAMPP / LAMP / MAMP
+* PHP & MySQL support
 
-Start your WAMP server.
+---
 
-Place the project folder and the setup script inside your www directory as shown below:
-Extract the files from the Zip file i.e DWD_Assignment_4_SAHIL_ABHISHEK.zip  
-C:\wamp64\www\
-├── SS6-Quantum-Core-Gaming-main\ (The entire website folder)
-└── setup.php                  (The database installer)
+## 📁 1. File Installation
 
+1. Start your WAMP server.
 
-2. Database Setup
+2. Extract the ZIP file:
 
-Open your web browser and navigate to:
-http://localhost/setup.php
+   ```
+   DWD_Assignment_4_SAHIL_ABHISHEK.zip
+   ```
 
-This single script will automatically:
+3. Place the extracted files inside your `www` directory:
 
-Create the quantum_gaming database.
+   ```
+   C:\wamp64\www\
+   ├── SS6-Quantum-Core-Gaming-main\   (Main project folder)
+   └── setup.php                      (Database setup script)
+   ```
 
-Create all tables (users, registrations, orders, products).
+---
 
-Insert the dummy product data for the homepage.
+## 🗄️ 2. Database Setup
 
-Once you see the "Database setup is complete!" message, you are done. You can delete setup.php for security.
+1. Open your browser and go to:
 
-3. Run the Website
+   ```
+   http://localhost/setup.php
+   ```
 
-Navigate to the project's homepage to begin:
+2. This script will automatically:
+
+   * Create the **quantum_gaming** database
+   * Create required tables:
+
+     * users
+     * registrations
+     * orders
+     * products
+   * Insert dummy product data
+
+3. Once you see:
+
+   ```
+   Database setup is complete!
+   ```
+
+   ✅ Setup is finished
+
+4. ⚠️ **Important:** Delete `setup.php` after setup for security reasons.
+
+---
+
+## 🌐 3. Run the Website
+
+Open the project in your browser:
+
+```
 http://localhost/SS6-Quantum-Core-Gaming-main/
+```
 
-4. How to Test (Recommended Flow)
+---
 
-Register: Go to the "Register" page and create a new user.
+## 🧪 4. How to Test (Recommended Flow)
 
-Login: You will be redirected to log in with your new account.
+### 🔹 Step 1: Register
 
-Test Forms:
+* Go to the **Register** page
+* Create a new user account
 
-Go to Games (game1.php) and register for the "Quantum PlayFest". Use your new username as the "Gamer Tag".
+---
 
-Go to any game (e.g., game2.php) and "BUY NOW". Use your new username as the "Gamer Tag".
+### 🔹 Step 2: Login
 
-Check Profile: Click "Profile" in the navigation bar. You will see both your event registration and your purchase history listed, demonstrating the dynamic capture and display of customer data.
+* Login using your newly created credentials
+
+---
+
+### 🔹 Step 3: Test Features
+
+* 🎮 Go to **Games (game1.php)**
+
+  * Register for **Quantum PlayFest**
+  * Use your username as *Gamer Tag*
+
+* 🛒 Go to another game (e.g., **game2.php**)
+
+  * Click **BUY NOW**
+  * Enter your username as *Gamer Tag*
+
+---
+
+### 🔹 Step 4: Check Profile
+
+* Click on **Profile** in the navigation bar
+
+✔ You will see:
+
+* Event registrations
+* Purchase history
+
+👉 This confirms:
+
+* Data is stored correctly
+* Dynamic user data is working
+
+---
+
+## 📌 Notes
+
+* This project is built for academic purposes
+* Uses a simple PHP + MySQL architecture
+* No external frameworks used
+
+---
